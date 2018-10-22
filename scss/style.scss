@@ -1,0 +1,229 @@
+$b:#01134E;
+$m:18px;
+
+%flex{
+  display:flex;
+  justify-content: center;
+}
+
+.logo{
+  @extend %flex;
+  background-color: $b;
+  width:80px;
+  height: 61px;
+  margin-left: 0;
+}
+
+.img1{
+  margin-top:18px ;
+  width: 35px;
+  height: 35px;
+}
+.worm{
+  @extend %flex;
+  margin-top: $m;
+}
+div{ p{ span{color: aqua} } }
+
+.img2{
+  border-radius: 100%;
+  width:22px;
+  height: 22px;
+  margin-top: $m;
+  margin-right: 5px;
+}
+.searchfree{
+  display: flex;
+  justify-content: right;
+}
+.Sarah{
+  margin-top: $m;
+}
+.st{
+  transform: rotate(90deg);
+  margin-top: 4px;
+}
+.st:hover{color:aqua;}
+.Sarah:hover{color:aqua}
+.row1{
+  border-bottom:1px inset silver ;
+}
+.navigate{
+  background-color: $b;
+  @extend %flex;
+  width:80px;
+  height: 645px;
+}
+.row2{
+  .col-md-1{
+    padding-right: 0;
+    padding-left: 0;
+
+  }
+}
+.img3{
+  width: 22px;
+  height: 22px;
+}
+.circle{
+  font-size: 14px;
+  @extend %flex;
+  width: 19px;
+  height: 19px;
+  background-color: aqua;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  left: 49%;
+  top: 10.6%;
+}
+.calendar{
+  margin-top: 75px;
+  width: 100%;
+}
+.person {
+  margin-top: 50px;
+  .img4 {
+    width: 19px;
+    height: 19px;
+  }
+}
+.mail{
+  margin-top: 50px;
+  border-left: 2px solid aqua;
+  .img5{
+    width: 21px;
+    height: 19px;
+  }
+}
+.paternimg{
+  width:52px;
+  height:50px;
+  border-radius: 100%;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.online{
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: aqua;
+  position: absolute;
+  left: 150px;
+  top: 20%;
+}
+.online2{
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: aqua;
+  position: absolute;
+  left: 130px;
+  top: 20%;
+}
+.users{
+  margin-left: 30px;
+
+}
+.hops{
+  background-color: rgba(	200,200,200,0.4);
+  width: 100%;
+}
+.closed{
+  background-color:rgba(220,220,220,0.2);
+  width: 100%;
+  border-bottom: 4px inset rgba(220,220,220,0.7);
+}
+.closed2{
+  background-color:rgba(220,220,220,0.2);
+  width: 100%;
+}
+.subtext{
+  font-size: 15px;
+  color:rgba(black , 0.5);
+  line-height: 20px;
+}
+.message{
+  background-color:#F9FAFC;
+}
+.saund{
+  margin-left: 12px;
+  width: 14px;
+  height: 14px;
+}
+.time{
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 10px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.pad{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-right: 10px;
+}
+.searchmessage{
+  background-color:rgba(220,220,220,0.2);
+  width: auto;
+  height: 100%;
+}
+.inp1{
+  width: 100%;
+  height: 47px;
+}
+.opas{
+  opacity: 0.5;
+}
+.sms{
+  width: 38px;
+  height: 36px;
+  border-radius: 100%;
+  margin-top: 50%;
+}
+.smstext{
+  Font-Family: Roboto;
+  Font-Size: 14px;
+}
+.smsbox{
+  width: 350px;
+  height: auto;
+  background-color:rgba(	200,200,200,0.4);
+  border-radius: 4%;
+
+}
+.message1{
+  margin-top: 90px;
+}
+.message2{
+  margin-top:19px ;
+}
+.sms2{
+  width: 38px;
+  height: 36px;
+  border-radius: 100%;
+  margin-top: 100%;
+}
+.flaxcont{
+  width: 100px;
+  height: auto;
+  background-color: white;
+}
+.inp2{
+  width:75%;
+  height: 47px;
+}
+.img10{
+  width: 35px;
+  height: 35px;
+  margin-left: 2%;
+}
+.img9{
+  width: 22px;
+  height: 22px;
+  margin-left: 2%;
+}
+.posit{
+  margin-top:10%;
+}
